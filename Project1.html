@@ -19,7 +19,8 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <!-- <link href="css/stylish-portfolio.min.css" rel="stylesheet"> -->
+    <link href="css/project1.css" rel="stylesheet">
 
   </head>
 
@@ -32,16 +33,16 @@
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#page-top">Project in GroupLens</a>
+          <a class="js-scroll-trigger" href="#page-top">Responses Collecting</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#page-top">An Overview</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#portfolio">The Process</a>
+          <a class="js-scroll-trigger" href="#portfolio">High-level Ideas</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#about">Results</a>
+          <a class="js-scroll-trigger" href="#about">Solutions</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#services">On Going</a>
@@ -55,81 +56,306 @@
     <!-- Header -->
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
-        <h1 class="mb-1">Di Wang</h1>
+        <h1 class="mb-1">Responses Collecting</h1>
         <h3 class="mb-5">
-          <em>Developer. Designer. Life lover. </em>
+          <em>A process to find the best balance.</em>
         </h3>
+        <table style="width: 60%;margin:auto">
+      		<thead>
+      			<tr>
+      				<th>ROLES
+      				<th>METHODS
+      				<th>TOOLS
+              <th>CODES
+      		</thead>
+      		<tbody>
+      			<tr>
+      				<td>UX Designer
+      				<td>Quick Prototyping
+      				<td>Balsamiq
+              <td>Flask
+      			<tr>
+      				<td>User Researcher
+      				<td>User Survey
+      				<td>Amazon Mturk
+              <td>PostgreSQL
+      			<tr>
+      				<td>Coder
+      				<td>Grounded Theory
+      				<td>Heroku
+              <td>Web Speech API
+      		</tbody>
+      	</table>
+        <p></p>
       </div>
       <div class="overlay"></div>
     </header>
 
 
-    <!-- Portfolio -->
+    <!-- High level ideas -->
     <section class="content-section" id="portfolio">
       <div class="container">
         <div class="content-section-heading text-center">
-          <h3 class="text-secondary mb-0">Portfolio</h3>
-          <h2 class="mb-5">Recent Projects</h2>
+          <h3 class="text-secondary mb-0">1</h3>
+          <h2 class="mb-5">High-level Ideas</h2>
         </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="/Project1.html">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Stationary</h2>
-                  <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Ice Cream</h2>
-                  <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Strawberries</h2>
-                  <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Workspace</h2>
-                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-            </a>
-          </div>
+        <div class="row">
         </div>
+          <p class="lead"> What we want to know: How people will interact with recommendation systems using natural language? </p>
+          <p class="lead"> Our Methods: Using web survey to collect user responses on Mturk.</p>
+          <p class="lead mb-5"> My Contribution: Finding out how to collect better responses. </p>
+          <img class="img-fluid" src="img/where-balance.png" alt="">
+          <p class="lead"> Users: Working on Amazon Mturk, they want to finish the survey quickly, so they need understandable instructions.</p>
+          <p class="lead"> We: Want natural answers that are not inluenced by our instructions much. </p>
+          <p class="lead mb-5"> Therefore: Not need to be so well polished, but need to be very easy to understand and lead users to speak naturally.</p>
       </div>
     </section>
 
-    <!-- About -->
+    <!-- Solutions -->
     <section class="content-section bg-light" id="about">
-      <div class="container text-center">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">2</h3>
+          <h2 >Solutins</h2>
+          <p class="lead mb-5">We ask the turkers to imagine that they want to watch some kinds of movies and an
+            intelligent assistant can recommend. <br> What they need to do is to describe the movies to the assistant based on the information shown on the screen.</p>
+        </div>
+
+        <h3 class="mb-3"> 1. How we show movie infomation? </h3>
         <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h2>I am interested in bringing better technology to people's life!</h2>
-            <p class="lead mb-5">What do people really need? I want to truly touch their life and understand their everyday behaivors. </p>
-            <!-- <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a> -->
+          <div class="col-lg-5">
+            <img class="img-fluid" src="img/poster.png" alt="">
+          </div>
+          <div class="col-lg-7">
+            <p class="lead"> First, using posters. </p>
+            <p class="lead"> Turkers need to guess what kind of movies the posters represent. </p>
+            <p class="lead mb-5"> Analysis: posters give turkers more space to imagine and express, but are more difficult to understand. </p>
           </div>
         </div>
+        <div class="row">
+          <div class="col-lg-5 text-center">
+            <p class="lead"> "Movies starred by Leonardo DiCaprio."
+          </div>
+          <div class="col-lg-5">
+            <img class="img-fluid" src="img/poster-balance.png" alt="">
+          </div>
+        </div>
+
+        <p class = "mb-5"> </p>
+        <div class="row">
+          <div class="col-lg-5">
+            <img class="img-fluid" src="img/keywords.png" alt="">
+          </div>
+          <div class="col-lg-7">
+            <p class="lead"> Second, using keywords. </p>
+            <p class="lead"> Turkers tell what kinds of movies they are looking for according to the keywords. </p>
+            <p class="lead mb-5"> Analysis: it is super easy to know what to say, but their expressions may be influnced by the words we provide. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 text-center">
+            <p class="lead"> "Romantic comedies."
+          </div>
+          <div class="col-lg-5">
+            <img class="img-fluid" src="img/keyword-balance.png" alt="">
+          </div>
+        </div>
+
+        <p class = "mb-5"> </p>
+        <div class="row">
+          <div class="col-lg-5 text-center">
+            <img class="img-fluid" src="img/sentence.png" alt="">
+            <p class="lead"> "Movies for Friday night." </p>
+          </div>
+          <div class="col-lg-7">
+            <p class="lead"> Third, using sentences. </p>
+            <p class="lead"> Turkers think of other three queires to express the same meaning with the original query. </p>
+            <p class="lead mb-5"> Analysis: it is easy to come up with answers, too. But the response variety can be influenced much.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 text-center">
+
+          </div>
+          <div class="col-lg-5">
+            <img class="img-fluid" src="img/sentence-balance.png" alt="">
+          </div>
+        </div>
+        <p class = "mb-5"> </p>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p class="lead mb-5"> Which way has the best balance compared to others?<br> After pilot tests, we found that using keyword led to the best results. </p>
+          </div>
+        </div>
+
+        <h3 class="mb-3"> 2. How to teach turkers to use this application? </h3>
+        <div class="row">
+          <div class="col-lg-7 text-center">
+            <img class="img-fluid" src="img/teach1.png" alt="">
+          </div>
+          <div class="col-lg-5">
+            <p class="lead"> First, preparation. </p>
+            <p class="lead mb-1"> Before they use this app: </p>
+            <p class="lead mb-1"> &nbsp &nbsp &nbsp &radic; &nbsp Overall introduction </p>
+            <p class="lead mb-5"> &nbsp &nbsp &nbsp &radic; &nbsp Emphasize the key information including "movie &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp recommendations" and "intelligent assistant"</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 text-center">
+            <img class="img-fluid" src="img/teach2.png" alt="">
+          </div>
+          <div class="col-lg-5">
+            <p class="lead mb-3"> </p>
+            <p class="lead"> Second, instructions. </p>
+            <p class="lead"> Tell them exactly what they should do. </p>
+            <p class="lead mb-5"> Turkers can click help button to read this instruction.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 text-center">
+            <img class="img-fluid" src="img/teach3.png" alt="">
+          </div>
+          <div class="col-lg-5">
+            <p class="lead mb-5"> </p>
+            <p class="lead"> Third, tutorials. </p>
+            <p class="lead"> Split the instructions to one-by-one-step tutorials, to make sure that they go through all the steps and get necessary information before starting. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 text-center">
+            <img class="img-fluid" src="img/teach4-1.jpeg" alt="">
+          </div>
+          <div class="col-lg-5">
+            <p class="lead mb-3"> </p>
+            <p class="lead"> Fourth, examples. </p>
+            <p class="lead"> Since poster version is hard to learn, we added some examples to the tutorials of this version.</p>
+            <p class="lead mb-5"> To decrease the influence brought by our instructions, we didn't add examples directly, instead, we applied analogy with clothes and movies.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 text-center">
+          </div>
+          <div class="col-lg-4 text-center">
+            <p class="lead mb-5">&nbsp </p>
+            <img class="img-fluid" src="img/teach-balance.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p class="lead mb-3"> </p>
+            <p class="lead mb-0"> The tutorials and instructions certainly increase the ease of use. </p>
+            <p class="lead mb-0"> Some words have little or no influence to user response variety. However, some others may not.</p>
+            <p class="lead mb-0"> We need to describe the scenarios and show them some examples, such as "Siri", "Comedy" and "Funny movies". </p>
+            <p class="lead mb-0"> To some degree, these influences are inevitable. They are necessary compromise. </p>
+            <p class="lead mb-5"> &nbsp</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-10">
+            <h3 class="mb-3"> 3. Detailed adjustments </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 text-center">
+          </div>
+          <div class="col-lg-8 text-center">
+            <p class="lead mb-3">&nbsp </p>
+            <img class="img-fluid" src="img/adjustments-balance1.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="lead mb-4"> </p>
+            <p class="lead mb-5">After we selected the way to show movie information and tutorials, the balance has got its blue and orange weights. </p>
+            <p class="lead mb-2">However, besides movie information and tutorials, many details may also bring subtle infulences. </p>
+            <p class="lead mb-2">The detailed adjustments that happened through out the whole process of pilot tests
+              and disucssions are like adjusting weights of a balance. Sometimes the left side is heavier but sometimes it is the opposite.</p>
+            <p class="lead mb-5">We need to observe and consider carefully to gradually find a better balance.</p>
+            <p class="lead mb-2">Below are some examples of detailed adjustments, and we used purple weights to represent them.
+              The left side represents variety and the right side represnets ease of use.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-7">
+            <img class="img-fluid" src="img/adjustments1.png" alt="">
+          </div>
+          <div class="col-lg-5">
+            <p class="lead mb-1"> By replacing the instruction "you want movies like these" with a check,
+              although it became a little harder to understand,
+              we avoid the influence brought by the word "want". </p>
+            <p class="lead">  Otherwise, turkers tend to use "I want something" for more times than other sentence patterns,
+              such as "recommend something for me" or "I am looking for something".</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-7">
+            <img class="img-fluid" src="img/adjustments2.png" alt="">
+          </div>
+          <div class="col-lg-5">
+            <p class="lead mb-3"> </p>
+            <p class="lead mb-1"> By replacing "what would you say?" with the dialogue,
+              we make it easier for turkers to imagine the scenarios that they are talking with an intelligent assistant. </p>
+            <p class="lead"> However, the phrase "would like" was repeated more times in the responses,
+              so we chose several similar phrases and randomly offer one to each turker
+               to reduce this influence, such as "what are you looking for?".</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-7">
+            <img class="img-fluid" src="img/adjustments3.png" alt="">
+          </div>
+          <div class="col-lg-5">
+            <p class="lead mb-3"> </p>
+            <p class="lead mb-1"> Although the "≈" is very useful to avoid turkers repeating the provided word "like",
+              it was really hard to understand its meaning. </p>
+            <p class="lead"> As a result, we chose several alternative words, such as "similar to".</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-7">
+            <img class="img-fluid" src="img/adjustments4.png" alt="">
+          </div>
+          <div class="col-lg-5">
+            <p class="lead mb-5"> </p>
+            <p class="lead"> We repeated the information "speak naturally" for many times,
+              to try to help turkers realize and pay attention to it subjectively. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7">
+            <img class="img-fluid" src="img/adjustments5.png" alt="">
+          </div>
+          <div class="col-lg-5">
+            <p class="lead mb-5"> </p>
+            <p class="lead mb-1"> To avoid directly giving turkers examples, we had to use more sentences to make it clear. </p>
+            <p class="lead"> But it is necessary, otherwise, turkers would repeat the example, "show me something", in most scenarios.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7">
+            <img class="img-fluid" src="img/adjustments-balance2.png" alt="">
+          </div>
+          <div class="col-lg-5">
+            <p class="lead mb-5">  </p>
+            <p class="lead mb-1"> After these iterations, we are increasingly closer to the best balance. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7">
+            <img class="img-fluid" src="img/adjustments-balance3.png" alt="">
+          </div>
+          <div class="col-lg-5">
+            <p class="lead mb-5">  </p>
+            <p class="lead mb-1"> After more attempts, agian and again, we finaly got a better balance point. </p>
+          </div>
+        </div>
+
       </div>
     </section>
 
