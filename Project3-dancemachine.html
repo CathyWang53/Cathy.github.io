@@ -33,19 +33,19 @@
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#page-top">Geno</a>
+          <a class="js-scroll-trigger" href="#page-top">Magic Dance Machine</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#page-top">An Overview</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#portfolio">High-level Ideas</a>
+          <a class="js-scroll-trigger" href="#portfolio">Overall Introduction</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#about">Interface design</a>
+          <a class="js-scroll-trigger" href="#about">Solutions</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#services">On Going</a>
+          <a class="js-scroll-trigger" href="#services">Results</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#contact">Contact</a>
@@ -70,13 +70,22 @@
       <div class="container">
         <div class="content-section-heading text-center">
           <h3 class="text-secondary mb-0">1</h3>
-          <h2 class="mb-5">Overall Introduction</h2>
+          <h2 class="mb-0">Overall Introduction</h2>
         </div>
-        <div class="row">
+        <p class="lead text-center mb-5"> The magic dance machine can use hand and foot gestures
+              to score, and adjust music speed to the heart rate.</p>
+
+        <h3 class="mb-2 text-center"> My Role </h3>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-10">
+            <p class="lead">I was the leader of the 15-people team: </br>
+               &nbsp;&nbsp; &radic; &nbsp;Designed the whole system, especially settled how every part worked together </br>
+               &nbsp;&nbsp; &radic; &nbsp;Weekly inspected every part’s progress and decided what to do next </br>
+               &nbsp;&nbsp; &radic; &nbsp;Solved problems we met
+            </p>
         </div>
-          <p class="lead"> The magic dance machine can use hand and foot gestures
-            to score, and adjust music speed to the heart rate.</p>
-        </div>
+      </div>
     </section>
 
     <!-- Solutions -->
@@ -84,53 +93,40 @@
       <div class="container">
         <div class="content-section-heading text-center">
           <h3 class="text-secondary mb-0">2</h3>
-          <h2 >Interface Design</h2>
+          <h2 >Solutions</h2>
           <p class="lead mb-5"></p>
         </div>
 
-        <h3 class="mb-3"> 1. Voice Input Configuration </h3>
+        <h3 class="mb-3"> 1. What are the requirments and solutions of each part? </h3>
         <div class="row">
           <div class="col-lg-12">
-            <p class="lead">To decrease the workload of writing codes when adding a voice input,
-              we plan to automatically generate the codes in Geno.
-            Developers only need to offer some examples to help train the natural
-            language understanding model and configure multimodal interactions by dragging objects.</p>
+            <p class="lead">Based on the overall effect of this dance machine,
+              there will be four main parts to deal with feet, hands, heart rates and signals. Each part will have different key points.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <img class="img-fluid" src="img/Geno/inputconfig.png" alt="">
+            <img class="img-fluid" src="img/dancemachine/solutionstable.jpg" alt="">
           </div>
         </div>
-        <h3 class="mb-3"> 2. Predetermined Functions </h3>
+        <p class="lead mb-5">&nbsp </p>
+
+        <h3 class="mb-3"> 2. How does each part work together? </h3>
         <div class="row">
           <div class="col-lg-12">
-            <p class="lead">To further decrease the workload, we predtermined some
-              frequently-used functions that developers can select to add by one click.</p>
-            <p class="lead"> For example, some functions can be used in every websites,
-              such as scroll up/down and view account. Also, different website categories have their common functions,
-            such as shopping sites -- view cart, media players -- play and pause, and map -- direction from A to B.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <img class="img-fluid" src="img/Geno/prefunc.png" alt="">
-          </div>
-        </div>
-        <h3 class="mb-3"> 3. UI Suggestions </h3>
-        <div class="row">
-          <div class="col-lg-12">
-            <p class="lead">To help some developers who may lack design experience,
-              we predetermined some user interface design patterns. Developers can
-            select and customize the settings.</p>
-            <p class="lead">  </p>
+            <p class="lead">User's hand gestures, foot steps and heart rates are captured distinctively.
+              The signals are then transmitted into the computer.
+              Unity codes will calculate the scores based on user's performances and display it on the screen.
+              Also, it will adjust music speed based on user's heart rates.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <img class="img-fluid" src="img/Geno/UIsuggestions.png" alt="">
+            <img class="img-fluid" src="img/dancemachine/solutions2.jpg" alt="">
           </div>
         </div>
+
+
 
       </div>
     </section>
@@ -140,16 +136,37 @@
       <div class="container">
         <div class="content-section-heading">
           <h3 class="text-secondary mb-0">3</h3>
-          <h2 class="mb-5">On going</h2>
+          <h2 class="mb-5">Results</h2>
         </div>
         <div class="row">
           <div class="col-lg-12 text-left">
 
-            <p class="lead mb-2"> We are going to do some user study to test the interface design. </p>
-            <p class="lead mb-2"> Next, we will begin to build the Geno IDE. </p>
-            <p class="lead mb-0"> At last, we will implement some demo and ask users to test Geno. </p>
+            <p class="lead mb-2"> User can wear the pulse sensor on his/her finger,
+              step on the buttons of the blanket according to the arrows and move their hand to catch the balls. </p>
+            <p class="lead mb-2">The music speed will be adjusted according to the heart rate.
+            When the heart rate is higher than a threshold value, the speed will decrease and vice versa. </p>
+            <p class="lead mb-5">The scores will be shown on the screen.
+              If users step on the right button, scores will plus ten and if users lose a ball, scores will decrease one. </p>
           </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-1"> </div>
+        <div class="col-lg-10">
+          <img class="img-fluid" src="img/dancemachine/result.jpg" alt="">
+        </div>
+      </div>
+
+      <p class="lead mb-5"> &nbsp; </p>
+      <iframe width="960" height="540" frameborder="0" src="https://www.youtube.com/embed/EP0FGKMzhQ4"> </iframe>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="lead mb-3"> &nbsp; </p>
+          <p class = "lead text-center"> Finally, the magic dance machine <strong>won the first place
+          </strong> within 20 teams in the intelligent system competition.</p>
+        </div>
+      </div>
 
       </div>
     </section>
